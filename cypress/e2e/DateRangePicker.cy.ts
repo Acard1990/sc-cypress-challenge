@@ -56,7 +56,7 @@ Is there a restricted min/max amount for the date range?
     previousYear = TODAY.getFullYear();
   }
 
-  const MONTH_NAMES = [
+  const MONTH_NAMES = [ // this could and should be moved to a fixture.  
     'zeroIndex',
     'January',
     'February',
